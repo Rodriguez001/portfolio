@@ -7,10 +7,10 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
-import lady from "../../../src/img/Testimonial/lady.png";
-import mike from "../../../src/img/Testimonial/mike.png";
-import man from "../../../src/img/Testimonial/man.png";
-import shape from "../../../src/img/Testimonial/shape-bg.png";
+import lady from "../../img/Testimonial/lady.png";
+import mike from "../../img/Testimonial/mike.png";
+import man from "../../img/Testimonial/man.png";
+import shape from "../../img/Testimonial/shape-bg.png";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {

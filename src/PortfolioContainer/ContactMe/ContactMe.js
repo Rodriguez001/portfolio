@@ -3,12 +3,12 @@ import Typical from "react-typical";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-import imgBack from "../../../src/images/mailz.jpeg";
-import load1 from "../../../src/images/load2.gif";
+import imgBack from "../../images/mailz.jpeg";
+import load1 from "../../images/load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-// import Footer from "../../PortfolioContainer/Footer/Footer";
+import Footer from "../../PortfolioContainer/footer/Footer";
 import "./ContactMe.css";
 
 export default function ContactMe(props) {
@@ -45,14 +45,14 @@ export default function ContactMe(props) {
         message,
       };
       setBool(true);
-      const res = await axios.post(`/contact`, data);
+      //const res = await axios.post(`/contact`, data);
       if (name.length === 0 || email.length === 0 || message.length === 0) {
-        setBanner(res.data.msg);
-        toast.error(res.data.msg);
+        setBanner("Remplissez les champs!");
+        toast.error("Remplissez les champs!");
         setBool(false);
-      } else if (res.status === 200) {
-        setBanner(res.data.msg);
-        toast.success(res.data.msg);
+      } else {
+        setBanner("message envoyée!");
+        toast.success("message envoyée!");
         setBool(false);
 
         setName("");
@@ -120,7 +120,7 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
