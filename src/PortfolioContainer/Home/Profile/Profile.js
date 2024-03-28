@@ -69,7 +69,7 @@ function Profile(props) {
             <button className="btn primary-btn"> Engagez moi </button>
             <a
               href="kamgaingrodrigue_CV.pdf"
-              download="Rodrigue kamgaingrodrigue_CV.pdf"
+              download="kamgaingrodrigue_CV.pdf"
             >
               <button className="btn highlighted-btn">Mon CV</button>
             </a>

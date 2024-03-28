@@ -24,6 +24,7 @@ const Resume = (props) => {
         <div className="resume-main-heading">
           <div className="heading-bullet"></div>
           <span>{props.heading ? props.heading : ""}</span>
+          {props.github ? <span className="heading-github"> <a href={props.github}>lien github</a></span> : <div></div>}
           {props.fromDate && props.toDate ? (
             <div className="heading-date">
               {props.fromDate + "-" + props.toDate}
@@ -36,11 +37,8 @@ const Resume = (props) => {
           <span>{props.subHeading ? props.subHeading : ""}</span>
         </div>
         <div className="resume-heading-description">
-          <span>{props.description ? props.description : ""}</span>
+          <span>{props.description ? props.description : ""}</span>          
         </div>
-        {/* <div className="resume-heading-github">
-          {props.github ? <a href={props.github}>lien github</a> : <div></div>}
-        </div> */}
       </div>
     );
   };
@@ -76,7 +74,7 @@ const Resume = (props) => {
     {
       title: "Portfolio Personnel",
       duration: { fromDate: "01/2024", toDate: "03/2024" },
-      //github: "",
+      github: "https://github.com/Rodriguez001/portfolio",
       description:
         "Un site Web de portfolio personnel pour présenter tous mes détails et projets en un seul endroit.",
       subHeading: "Technologies utilisées: React JS, Bootsrap",
@@ -84,7 +82,7 @@ const Resume = (props) => {
     {
       title: "Airmadness Project ",
       duration: { fromDate: "11/2022", toDate: "01/2023" },
-      // github: "",
+      github: "https://github.com/Rodriguez001/projetJ2E",
       description: "Application web de reservation de billets en ligne",
       subHeading:
         "Technologies utilisées:  Spring Java, Angular Js, Postgres, Express Js, Node Js, Sockets",
@@ -92,7 +90,7 @@ const Resume = (props) => {
     {
       title: "Projet de géolocation ",
       duration: { fromDate: "01/2023", toDate: "03/2023" },
-      // github: "",
+      github: "https://github.com/Rodriguez001/noname-GPS",
       description:
         "Applications web de gestion géolocation integration du kafka et web sockets",
       subHeading:
@@ -101,7 +99,7 @@ const Resume = (props) => {
     {
       title: "Chatbot ",
       duration: { fromDate: "02/2024", toDate: "03/2024" },
-      // github: "https://github.com/Rodriguez001/Chatbot-Source-codes",
+      github: "https://github.com/Rodriguez001/Chatbot-Source-codes",
       description:
         "Bot utilisant Chatgpt OpenAI integration intégrant du Spring, Kubernetes",
       subHeading:
@@ -213,7 +211,7 @@ const Resume = (props) => {
           heading={projectsDetails.title}
           subHeading={projectsDetails.subHeading}
           description={projectsDetails.description}
-          // github={projectsDetails.github}
+          github={projectsDetails.github}
           fromDate={projectsDetails.duration.fromDate}
           toDate={projectsDetails.duration.toDate}
         />

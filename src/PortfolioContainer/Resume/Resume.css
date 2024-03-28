@@ -149,13 +149,13 @@
   border-radius: 14px;
   color: var(--white);
 }
-/* .resume-heading-github {
+.heading-github a{
   background-color: #ff5823;
   padding: 4px 12px;
   font-size: 14px;
   border-radius: 14px;
   color: var(--white);
-} */
+}
 .skill-parent {
   display: flex;
   flex-direction: column;
