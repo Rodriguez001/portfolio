@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.56d92b8c.css",
-    "main.js": "/portfolio/static/js/main.f6c2de32.js",
+    "main.css": "/portfolio/static/css/main.94f06d60.css",
+    "main.js": "/portfolio/static/js/main.ba7a75d5.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/bg-1.jpg": "/portfolio/static/media/bg-1.e7a118c397efc44bbf9e.jpg",
     "static/media/Poppins-Thin.ttf": "/portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -13,6 +13,7 @@
     "static/media/Poppins-ExtraBold.ttf": "/portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/lady.png": "/portfolio/static/media/lady.2c54ef6a69cfe97e520f.png",
     "static/media/mike.png": "/portfolio/static/media/mike.8af8bcf1a1892426bb8d.png",
+    "static/media/mailz.jpeg": "/portfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
     "static/media/man.png": "/portfolio/static/media/man.bd25aa3831d20f3de330.png",
     "static/media/me.jpg": "/portfolio/static/media/me.391b6dc75d1b4f06c568.jpg",
     "static/media/profilephoto.jpeg": "/portfolio/static/media/profilephoto.bfb001f41da42afecde6.jpeg",
@@ -23,12 +24,12 @@
     "static/media/interests.svg": "/portfolio/static/media/interests.809890a3e4fb0938f61b.svg",
     "static/media/education.svg": "/portfolio/static/media/education.10cfa28a40119ebd70cf.svg",
     "static/media/work-history.svg": "/portfolio/static/media/work-history.a566475dedb99dea4bb8.svg",
-    "main.56d92b8c.css.map": "/portfolio/static/css/main.56d92b8c.css.map",
-    "main.f6c2de32.js.map": "/portfolio/static/js/main.f6c2de32.js.map",
+    "main.94f06d60.css.map": "/portfolio/static/css/main.94f06d60.css.map",
+    "main.ba7a75d5.js.map": "/portfolio/static/js/main.ba7a75d5.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56d92b8c.css",
-    "static/js/main.f6c2de32.js"
+    "static/css/main.94f06d60.css",
+    "static/js/main.ba7a75d5.js"
   ]
 }
