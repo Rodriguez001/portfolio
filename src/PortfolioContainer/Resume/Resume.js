@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+import Footer from "../../PortfolioContainer/footer/Footer";
 import "./Resume.css";
 
 const Resume = (props) => {
@@ -308,6 +309,7 @@ const Resume = (props) => {
           <div className="resume-bullet-details">{getResumeScreens()}</div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

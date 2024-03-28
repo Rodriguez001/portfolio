@@ -11,6 +11,7 @@ import lady from "../../img/Testimonial/lady.png";
 import mike from "../../img/Testimonial/mike.png";
 import man from "../../img/Testimonial/man.png";
 import shape from "../../img/Testimonial/shape-bg.png";
+import Footer from "../../PortfolioContainer/footer/Footer";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -98,9 +99,10 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      J'ai eu le privilège de
-                      travailler avec Rodrigue pendant plusieurs années. Il est non seulement un expert technique, 
-                      mais aussi un excellent communicateur et un membre d'équipe fiable.
+                      J'ai eu le privilège de travailler avec Rodrigue pendant
+                      plusieurs années. Il est non seulement un expert
+                      technique, mais aussi un excellent communicateur et un
+                      membre d'équipe fiable.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -205,6 +207,7 @@ export default function Testimonial(props) {
       <div className="footer-image">
         <img src={shape} alt="Phot0 not responding" />
       </div>
+      <Footer />
     </div>
   );
 }

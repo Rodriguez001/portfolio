@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+import Footer from "../../PortfolioContainer/footer/Footer";
 import "./AboutMe.css";
 
 export default function AboutMe(props) {
@@ -78,6 +79,7 @@ export default function AboutMe(props) {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
